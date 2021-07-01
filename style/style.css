@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+.header-top-left{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+}
+h1{
+    color: gray;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+#img-utente{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+
+.menu{
+    margin: 10px;
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.menu li :hover{
+    padding-bottom: 10px;
+    border-bottom: 3px solid blue;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 40px 0;
+}
+
+h3{
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.faq{
+    margin: 70px 100px; 
+    list-style: none;
+}
+
+.faq li{
+    margin-left: 40px;
+    font-size: 14px;
+    line-height: 30px;
+}
+p{
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 24px;
+}
